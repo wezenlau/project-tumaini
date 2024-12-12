@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+}
+.main-body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.header {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgb(210, 0, 63);
+  color: white;
+  text-align: center;
+}
+.footer {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow: hidden;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.wrapper {
+  height: 300px;;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.wrapper:before, .wrapper:after{
+  content:"";
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  z-index: 2;
+}
+.wrapper:before {
+  left: 0;
+  top: 0;
+}
+.wrapper:after {
+  right: 0;
+  top: 0;
+}
+.wrapper .track {
+  display:flex;
+  width: 1000px;
+  height: 200px;
+  animation: scroll 90s 0.5s linear infinite
+}
+
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-2550px);
+  }
+}
+
+h1 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-size: 32pt;
+}
+h2 {
+  font-size: 2vw;
+}
+p {
+  font-size: 1.1vw;
+}
+
+a.menu:link, a.menu:visited, a.menu:hover, a.menu:active {
+  color: rgb(0, 0, 0);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a.bt-links:link, a.bt-links:visited, a.bt-links:hover, a.bt-links:active {
+  color: rgb(255, 255, 255);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a.donate:link, a.donate:visited {
+  background-color: #4ab8f8;
+  color: rgb(0, 0, 0);
+  font-size: 20pt;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.donate:hover, a.donate:active {
+  color: white;
+  font-size: 20pt;
+  background-color: rgb(31, 141, 205);
+}
+
+a.donate-amuka:link, a.donate-amuka:visited {
+  background-color: #f02222;
+  color: rgb(0, 0, 0);
+  font-size: 20pt;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.donate-amuka:hover, a.donate-amuka:active {
+  color: white;
+  font-size: 20pt;
+  background-color: rgb(203, 46, 46);
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  font-size: 13pt;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+  background-color: rgb(255, 154, 143);
+}
+td, th {
+  border: outset, rgb(225, 0, 0);
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+article {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 20;
+  padding: 0px;
+}
+aside {
+  -webkit-flex: 0;
+  -ms-flex: 0;
+  flex: 10.7;
+  padding: 0px;
+}
+
