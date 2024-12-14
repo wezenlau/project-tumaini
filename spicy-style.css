@@ -133,11 +133,40 @@ table {
   width: 100%;
   text-align: center;
   padding: 8px;
-  background-color: rgb(255, 154, 143);
+  background-color: rgb(153, 223, 153);
 }
-td, th {
-  border: outset #e10000;
+tr {
+  border: solid green;
 }
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 3px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  min-width: 100%;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(33, 170, 33);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
 section {
   display: -webkit-flex;
   display: flex;
