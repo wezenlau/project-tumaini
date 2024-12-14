@@ -51,7 +51,7 @@ body {
   display:flex;
   width: 1000px;
   height: 200px;
-  animation: scroll 90s 0.5s linear infinite
+  animation: scroll 60s 0.5s linear infinite
 }
 
 
@@ -60,7 +60,7 @@ body {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-2550px);
+    transform: translateX(-164.5vw);
   }
 }
 
