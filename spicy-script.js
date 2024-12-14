@@ -8,7 +8,7 @@ function scrollFunction() {
             document.getElementById("side-nav").style.width = "0"
             document.getElementById("nav-icon").style.right = "-105%";
         } else {
-            document.getElementById("nav-icon").style.right = "-97%";
+            document.getElementById("nav-icon").style.right = "calc(-100% + 45px)";
         }
     }
 }
@@ -21,7 +21,7 @@ function controlNav(icon) {
         opened = true;
     } else {
         document.getElementById("side-nav").style.width = "0";
-        document.getElementById("nav-icon").style.right = "-97%";
+        document.getElementById("nav-icon").style.right = "calc(-100% + 45px)";
         icon.classList.toggle("bar-change")
         opened = false;
     }
