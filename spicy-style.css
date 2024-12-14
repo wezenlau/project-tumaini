@@ -136,7 +136,7 @@ table {
   background-color: rgb(255, 154, 143);
 }
 td, th {
-  border: outset, rgb(225, 0, 0);
+  border: outset, #e10000;
 }
 section {
   display: -webkit-flex;
