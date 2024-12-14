@@ -232,25 +232,26 @@ aside {
 
 .side-nav {
   border-radius: 5px;
-  height: 50%;
+  height: 40%;
   width: 0;
   position: fixed;
   z-index: 1;
-  top: 25%;
+  top: 30%;
   right: 0;
   background-color: rgb(210, 0, 63);
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 2%;
 }
 
 .side-nav a {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 22px;
   color: #ffffff;
   display: block;
   transition: 0.3s;
+  padding-right: 5px;
 }
 .side-nav ul {  
   list-style-type: none;
