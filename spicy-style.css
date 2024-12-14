@@ -14,6 +14,7 @@ body {
   background-color: rgb(210, 0, 63);
   color: white;
   text-align: center;
+  transition: top 1s;
 }
 .footer {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -182,5 +183,80 @@ aside {
   -ms-flex: 0;
   flex: 10.7;
   padding: 0px;
+}
+#nav-icon {
+  padding-left: 10px;
+  padding-top: 2px;
+  border-radius: 5px;
+  background-color: rgb(210, 0, 63);
+  position: fixed;
+  bottom: 45%;
+  right: -105%;
+  width: 100%;
+  display: block;
+  transition: right 0.5s;
+}
+
+#nav-icon a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+  border-radius: 1px;
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.5s;
+}
+
+.bar-change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.bar-change .bar2 {opacity: 0;}
+
+.bar-change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.side-nav {
+  border-radius: 5px;
+  height: 50%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 25%;
+  right: 0;
+  background-color: rgb(210, 0, 63);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.side-nav a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+.side-nav ul {  
+  list-style-type: none;
+}
+
+.side-nav a:hover {
+  color: #f1f1f1;
 }
 
