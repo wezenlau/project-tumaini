@@ -68,16 +68,16 @@ h1 {
   padding-top: 10px;
   padding-bottom: 5px;
   padding-left: 10px;
-  font-size: 36pt;
+  font-size: 33pt;
 }
 h2 {
-  font-size: 2.2vw;
+  font-size: 2.1vw;
 }
 h3 {
-  font-size: 1.6vw;
+  font-size: 1.5vw;
 }
 p {
-  font-size: 1.15vw;
+  font-size: 1.11vw;
 }
 
 a.menu:link, a.menu:visited, a.menu:hover, a.menu:active {
