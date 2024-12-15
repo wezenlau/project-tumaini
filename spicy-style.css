@@ -1,14 +1,13 @@
 body {
   margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .main-body {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: rgb(255, 255, 255);
   padding-left: 3%;
   padding-right: 3%;
 }
 .header {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   overflow: hidden;
   width: 100%;
   background-color: rgb(210, 0, 63);
@@ -16,7 +15,6 @@ body {
   text-align: center;
 }
 .footer {
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   overflow: hidden;
   width: 100%;
   background-color: black;
@@ -82,13 +80,11 @@ p {
 
 a.menu:link, a.menu:visited, a.menu:hover, a.menu:active {
   color: rgb(0, 0, 0);
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: transparent;
   text-decoration: underline;
 }
 a.bt-links:link, a.bt-links:visited, a.bt-links:hover, a.bt-links:active {
   color: rgb(255, 255, 255);
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -127,7 +123,6 @@ a.donate-amuka:hover, a.donate-amuka:active {
 
 
 table {
-  font-family: arial, sans-serif;
   font-size: 13pt;
   border-collapse: collapse;
   width: 100%;
@@ -147,7 +142,6 @@ tr {
   display: none;
   position: absolute;
   background-color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding-top: 3px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   min-width: 100%;
@@ -266,7 +260,6 @@ aside {
 }
 
 .side-nav a {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-decoration: none;
   font-size: 22px;
   color: #ffffff;
