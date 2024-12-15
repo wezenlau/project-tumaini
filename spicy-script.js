@@ -43,7 +43,7 @@ function arrowSwitch() {
         document.getElementById("socials").style.width = "0"
         document.getElementById("socials").style.opacity = "0"
         document.getElementById("icon2").classList.toggle("arrow-switch")
-        document.getElementById("arrow-icon").style.width = "55px"
+        document.getElementById("arrow-icon").style.width = "45px"
         socialsOpened = false
     }
 }

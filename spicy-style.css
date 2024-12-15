@@ -220,7 +220,7 @@ aside {
 }
 .bar4, .bar5 {
   border-radius: 1px;
-  width: 30px;
+  width: 25px;
   height: 5px;
   background-color: #ffffff;
   margin: 6px 0;
@@ -238,17 +238,17 @@ aside {
 }
 
 .arrow-loader .bar4 {
-  transform: translateX(14px) translateY(10px) rotate(40deg);
+  transform: translateX(11px) translateY(7px) rotate(40deg);
 }
 .arrow-loader .bar5 {
-  transform: translateX(14px) translateY(16px) rotate(-40deg);
+  transform: translateX(11px) translateY(10px) rotate(-40deg);
 }
 
 .arrow-switch .bar4 {
-  transform: translateX(440px) translateY(10px) rotate(-40deg);
+  transform: translateX(445px) translateY(7px) rotate(-40deg);
 }
 .arrow-switch .bar5 {
-  transform: translateX(440px) translateY(16px) rotate(40deg);
+  transform: translateX(445px) translateY(10px) rotate(40deg);
 }
 
 .side-nav {
@@ -285,7 +285,7 @@ aside {
 #socials {
   position: absolute;
   border-radius: 5px;
-  height: 55px;
+  height: 45px;
   opacity: 0;
   width: 0;
   z-index: 1;
@@ -298,8 +298,8 @@ aside {
   position: absolute;
   border-radius: 3px;
   background-color: rgb(210, 0, 63);
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   display: block;
   transition: 0.5s;
 }
