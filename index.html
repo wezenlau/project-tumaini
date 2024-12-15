@@ -82,7 +82,7 @@
     </div>
 
     <div class="main-body">    
-    <body>             
+    <body onload="arrowLoader()">             
         <h1>
             Future Solutions - A UTC Reading Community Project
         </h1>
@@ -188,7 +188,7 @@
             Used by farmers from Kenya to Tanzania, it has had plenty of local success, though many do not know how it works, so we plan to educate the locals and their children on the intricacies of this technique.<br><br>
 
             Children can also learn to grow chillies as an extra-curricular activity. 
-            Chilli-growing is a therapeutic activity which will benefit both the children's mental and physical health.
+            Chilli-growing is a therapeutic activity which will benefit both the children's mental and physical health.​
             Locals are also able harvest the chillis and sell them, as an extra source of income, or use them to enhance their cuisine.
             Furthermore, this chilli fencing technique can be implemented in local towns or villages if the school project is successful.
         </p>
@@ -218,13 +218,22 @@
             Alternatively, following and sharing our social media is always appreciated!
         </p>
 
-        <p style="background-color: rgb(210, 0, 63); padding-left: 5px;" id="socials">
-            <a href="" title="Facebook Page"><img src="facebook-logo.png" alt="Facebook Page" style="height: 40px; width: 40px;"></a>
-            <a href="" title="Instagram Page"><img src="insta-logo.png" alt="Instagram Page" style="height: 40px; width: 40px;"></a>
+        <div class="container" id="arrow-icon" onclick="arrowSwitch()">
+            <div id="icon2">
+                <div class="bar4"></div>
+                <div class="bar5"></div>
+            </div>
+        </div>
+        <div id="socials">
+            <a href="" title="Facebook Page"><img src="facebook-logo.png" alt="Facebook Page" style="height: 50px; width: 50px;"></a>
+            <a href="" title="Instagram Page"><img src="insta-logo.png" alt="Instagram Page" style="height: 50px; width: 50px;"></a>
             <a href="https://www.youtube.com/@future_solutions_utc" target="_blank"
-                title="Youtube Channel"><img src="yt-logo.png" alt="Youtube Page" style="height: 40px; width: 40px;"></a>
-            <a href="" title="TikTok Page"><img src="tiktok-logo.png" alt="TikTok Page" style="height: 40px; width: 40px;"></a>
-        </p>
+                title="Youtube Channel"><img src="yt-logo.png" alt="Youtube Page" style="height: 50px; width: 50px;"></a>
+            <a href="" title="TikTok Page"><img src="tiktok-logo.png" alt="TikTok Page" style="height: 50px; width: 50px;"></a>
+        </div>
+
+        <p><br><br><br></p>
+        
         <div id="donate">
             <a class="donate" href="https://www.letslocalise.co.uk/pap-campaign-details?pledgeCampaignId=11560" 
                 title="Donate via our school's fundrasing campaign" target="_blank">
@@ -239,7 +248,7 @@
 
     <!--Add back the images-->
     <div id="nav-icon">
-        <div class="container" onclick="controlNav(this)">
+        <div class="container" id="icon1" onclick="controlNav(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>

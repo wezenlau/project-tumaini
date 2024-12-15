@@ -14,7 +14,6 @@ body {
   background-color: rgb(210, 0, 63);
   color: white;
   text-align: center;
-  transition: top 1s;
 }
 .footer {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -219,15 +218,37 @@ aside {
   margin: 6px 0;
   transition: 0.5s;
 }
+.bar4, .bar5 {
+  border-radius: 1px;
+  width: 30px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.5s;
+}
 
 .bar-change .bar1 {
   transform: translate(0, 10.9px) rotate(-45deg);
 }
-
-.bar-change .bar2 {opacity: 0;}
-
+.bar-change .bar2 {
+  opacity: 0;
+}
 .bar-change .bar3 {
   transform: translate(0, -10.9px) rotate(45deg);
+}
+
+.arrow-loader .bar4 {
+  transform: translateX(14px) translateY(10px) rotate(40deg);
+}
+.arrow-loader .bar5 {
+  transform: translateX(14px) translateY(16px) rotate(-40deg);
+}
+
+.arrow-switch .bar4 {
+  transform: translateX(440px) translateY(10px) rotate(-40deg);
+}
+.arrow-switch .bar5 {
+  transform: translateX(440px) translateY(16px) rotate(40deg);
 }
 
 .side-nav {
@@ -259,5 +280,27 @@ aside {
 
 .side-nav a:hover {
   color: rgb(162, 162, 162);
+}
+
+#socials {
+  position: absolute;
+  border-radius: 5px;
+  height: 55px;
+  opacity: 0;
+  width: 0;
+  z-index: 1;
+  background-color: rgb(210, 0, 63);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-left: 5px;
+}
+#arrow-icon {
+  position: absolute;
+  border-radius: 3px;
+  background-color: rgb(210, 0, 63);
+  width: 55px;
+  height: 55px;
+  display: block;
+  transition: 0.5s;
 }
 
