@@ -95,7 +95,7 @@ p {
 }
 .menu {
   font-size: 13pt;
-  width: calc(20.1vw - 5px);
+  width: calc(20.04vw - 4px);
   text-align: center;
   background-color: rgb(137, 209, 137);
   color: black;
