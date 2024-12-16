@@ -131,7 +131,7 @@ table {
   background-color: rgb(153, 223, 153);
 }
 tr {
-  border: solid green;
+  border: solid rgb(0, 0, 128);
 }
 
 .dropdown {
