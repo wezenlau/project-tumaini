@@ -20,7 +20,8 @@ body {
 }
 .header-content aside {
   position: relative;
-  top: calc(3.5vw - 14px);
+  top: calc(3.7vw - 14px);
+  right: 15px;
   float: right;
 }
 .footer {
@@ -87,11 +88,46 @@ p {
   font-size: 1.11vw;
 }
 
-a.menu:link, a.menu:visited, a.menu:hover, a.menu:active {
-  color: rgb(0, 0, 0);
-  background-color: transparent;
-  text-decoration: none;
+#menu {
+  width: 100%;
+  height: 90px;
+  text-align: center;
 }
+.menu {
+  font-size: 13pt;
+  width: calc(20.1vw - 5px);
+  text-align: center;
+  background-color: rgb(137, 209, 137);
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-decoration: none;
+  display:inline-block;
+}
+.menu:hover {
+  background-color: rgb(102, 176, 102);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  border-radius: 2px;
+  transition: 0.2s;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(102, 176, 102);
+  color: #000000;
+}
+#dropdown:hover .dropdown-content {
+  display: block;
+}
+#dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
 a.bt-links:link, a.bt-links:visited, a.bt-links:hover, a.bt-links:active {
   color: rgb(255, 255, 255);
   background-color: transparent;
@@ -99,10 +135,11 @@ a.bt-links:link, a.bt-links:visited, a.bt-links:hover, a.bt-links:active {
 }
 
 a.donate:link, a.donate:visited {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #4ab8f8;
   color: rgb(0, 0, 0);
   font-size: 20pt;
-  padding: 15px 25px;
+  padding: 15px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -115,6 +152,7 @@ a.donate:hover, a.donate:active {
 }
 
 a.donate-amuka:link, a.donate-amuka:visited {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #f02222;
   color: rgb(0, 0, 0);
   font-size: 20pt;
@@ -130,50 +168,21 @@ a.donate-amuka:hover, a.donate-amuka:active {
   background-color: rgb(203, 46, 46);
 }
 
-
-table {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 14pt;
-  border-collapse: collapse;
-  width: 100%;
-  height: 40px;
-  text-align: center;
-  padding: 8px;
-  background-color: rgb(137, 209, 137);
-}
-th, td {
-  border: solid rgb(22, 124, 22);
-}
-
-.dropdown {
+#dropdown {
   position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
+  text-align: center;
+  font-size: 13pt;
+  width: 20vw;
   display: none;
   position: absolute;
   background-color: white;
-  padding-top: 3px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  min-width: 100%;
+  border-radius: 2px;
   z-index: 1;
 }
-
-.dropdown-content a {
-  color: black;
-  padding: 10px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: rgb(33, 121, 33);
-  color: #ffffff;
-}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 .media {
   display: -webkit-flex;
@@ -296,7 +305,7 @@ th, td {
   opacity: 0;
   width: 0;
   z-index: 1;
-  background-color: rgb(210, 0, 63);
+  background-color: rgb(74, 124, 74);
   overflow-x: hidden;
   transition: 0.5s;
   padding-left: 5px;
@@ -304,7 +313,7 @@ th, td {
 #arrow-icon {
   position: absolute;
   border-radius: 3px;
-  background-color: rgb(210, 0, 63);
+  background-color: rgb(74, 124, 74);
   width: 45px;
   height: 45px;
   display: block;
