@@ -1,8 +1,9 @@
 body {
   margin: 0;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .main-body {
+  font-family: 'Microsoft YaHei';
   background-color: rgb(255, 255, 255);
   padding-left: 3%;
   padding-right: 3%;
@@ -10,9 +11,17 @@ body {
 .header {
   overflow: hidden;
   width: 100%;
-  background-color: rgb(210, 0, 63);
+  background-color: rgb(74, 124, 74);
   color: white;
   text-align: center;
+}
+.header-content article {
+  float: left;
+}
+.header-content aside {
+  position: relative;
+  top: calc(3.5vw - 14px);
+  float: right;
 }
 .footer {
   overflow: hidden;
@@ -81,7 +90,7 @@ p {
 a.menu:link, a.menu:visited, a.menu:hover, a.menu:active {
   color: rgb(0, 0, 0);
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a.bt-links:link, a.bt-links:visited, a.bt-links:hover, a.bt-links:active {
   color: rgb(255, 255, 255);
@@ -123,15 +132,17 @@ a.donate-amuka:hover, a.donate-amuka:active {
 
 
 table {
-  font-size: 13pt;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14pt;
   border-collapse: collapse;
   width: 100%;
+  height: 40px;
   text-align: center;
   padding: 8px;
-  background-color: rgb(153, 223, 153);
+  background-color: rgb(137, 209, 137);
 }
-tr {
-  border: solid rgb(0, 0, 128);
+th, td {
+  border: solid rgb(22, 124, 22);
 }
 
 .dropdown {
@@ -155,23 +166,26 @@ tr {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: rgb(33, 170, 33);}
+.dropdown-content a:hover {
+  background-color: rgb(33, 121, 33);
+  color: #ffffff;
+}
 
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-section {
+.media {
   display: -webkit-flex;
   display: flex;
 }
-article {
+.media article {
   -webkit-flex: 0;
   -ms-flex: 0;
   flex: 20;
   padding: 0px;
 }
-aside {
+.media aside {
   -webkit-flex: 0;
   -ms-flex: 0;
   flex: 10.7;
@@ -181,7 +195,7 @@ aside {
   padding-left: 10px;
   padding-top: 2px;
   border-radius: 5px;
-  background-color: rgb(210, 0, 63);
+  background-color: rgb(74, 124, 74);
   position: fixed;
   bottom: 45%;
   right: -105%;
@@ -205,7 +219,7 @@ aside {
   cursor: pointer;
 }
 .bar1, .bar2, .bar3 {
-  border-radius: 1px;
+  border-radius: 0.5px;
   width: 35px;
   height: 5px;
   background-color: #ffffff;
@@ -253,7 +267,7 @@ aside {
   z-index: 1;
   top: 28%;
   right: 0;
-  background-color: rgb(210, 0, 63);
+  background-color: rgb(74, 124, 74);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 2%;
@@ -272,7 +286,7 @@ aside {
 }
 
 .side-nav a:hover {
-  color: rgb(162, 162, 162);
+  color: rgb(180, 180, 180);
 }
 
 #socials {
