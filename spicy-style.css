@@ -90,12 +90,13 @@ p {
 
 #menu {
   width: 100%;
-  height: 90px;
+  height: 72px;
   text-align: center;
+  background-color: rgb(137, 209, 137);
 }
 .menu {
-  font-size: 13pt;
-  width: calc(20.04vw - 4px);
+  font-size: 14pt;
+  width: 19vw;
   text-align: center;
   background-color: rgb(137, 209, 137);
   color: black;
@@ -109,6 +110,7 @@ p {
 }
 
 .dropdown-content a {
+  font-size: 14pt;
   color: black;
   padding: 10px;
   text-decoration: none;
