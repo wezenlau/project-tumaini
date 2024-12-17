@@ -4,7 +4,7 @@ let navOpened = false;
 let socialsOpened = false
 
 function scrollFunction() {
-    if (document.documentElement.scrollTop < 550) {
+    if (document.documentElement.scrollTop < 400) {
         document.getElementById("side-nav").style.width = "0"
         document.getElementById("nav-icon").style.right = "-105%";
         document.getElementById("icon1").classList.remove("bar-change")

@@ -14,13 +14,15 @@ body {
   background-color: rgb(74, 124, 74);
   color: white;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .header-content article {
   float: left;
 }
 .header-content aside {
   position: relative;
-  top: calc(3.7vw - 14px);
+  top: calc(2.8vw - 10px);
   right: 15px;
   float: right;
 }
@@ -91,21 +93,21 @@ p {
 #menu {
   width: 100%;
   text-align: center;
-  background-color: rgb(137, 209, 137);
+  background-color: rgb(102, 176, 102);
 }
 .menu {
   font-size: 14pt;
   width: 19vw;
   text-align: center;
-  background-color: rgb(137, 209, 137);
-  color: black;
+  background-color: rgb(102, 176, 102);
+  color: rgb(0, 0, 0);
   padding-top: 25px;
   padding-bottom: 25px;
   text-decoration: none;
   display:inline-block;
 }
 .menu:hover {
-  background-color: rgb(102, 176, 102);
+  background-color: rgb(137, 209, 137);
 }
 
 .dropdown-content a {
@@ -119,7 +121,7 @@ p {
 }
 
 .dropdown-content a:hover {
-  background-color: rgb(102, 176, 102);
+  background-color: rgb(137, 209, 137);
   color: #000000;
 }
 #dropdown:hover .dropdown-content {
@@ -137,10 +139,11 @@ a.bt-links:link, a.bt-links:visited, a.bt-links:hover, a.bt-links:active {
 
 a.donate:link, a.donate:visited {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 50%;
   background-color: #4ab8f8;
   color: rgb(0, 0, 0);
   font-size: 20pt;
-  padding: 15px 20px;
+  padding: 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -154,10 +157,11 @@ a.donate:hover, a.donate:active {
 
 a.donate-amuka:link, a.donate-amuka:visited {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 45%;
   background-color: #f02222;
   color: rgb(0, 0, 0);
   font-size: 20pt;
-  padding: 15px 25px;
+  padding: 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -319,5 +323,20 @@ a.donate-amuka:hover, a.donate-amuka:active {
   height: 45px;
   display: block;
   transition: 0.5s;
+}
+
+#utcr-logo {
+  position: relative;
+  left: 20%;
+}
+#amuka-logo {
+  position: absolute;
+  right: 20%;
+}
+
+#contacts {
+  position: relative;
+  left: 31.5%;
+  text-align: left;
 }
 
