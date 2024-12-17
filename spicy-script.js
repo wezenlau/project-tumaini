@@ -47,3 +47,11 @@ function arrowSwitch() {
         socialsOpened = false
     }
 }
+
+function menuHeight() {
+    if (window.innerWidth > 997) {
+        document.getElementById("menu").style.height = "72px"
+    } else {
+        document.getElementById("menu").style.height = "94px"
+    }
+}
