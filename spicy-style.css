@@ -3,7 +3,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 .main-body {
-  font-family: 'Microsoft YaHei';
+  font-family: 'Microsoft YaHei', Arial, sans-serif;
   background-color: rgb(255, 255, 255);
   padding-left: 3%;
   padding-right: 3%;
