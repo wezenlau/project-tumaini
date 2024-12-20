@@ -88,16 +88,16 @@ h1 {
   font-size: 33pt;
 }
 h2 {
-  font-size: 2.1vw;
+  font-size: 26pt;
 }
 h3 {
-  font-size: 1.5vw;
+  font-size: 18pt;
 }
 h4 {
-  font-size: 1.22vw;
+  font-size: 15pt;
 }
 p {
-  font-size: 1.21vw;
+  font-size: 14pt;
 }
 
 #menu {
@@ -343,11 +343,11 @@ a.donate:hover, a.donate:active {
 #contacts {
   position: relative;
   text-align: left;
-  left: calc(30vw);
+  left: calc(50vw - 310px);
 }
 #contact-us {
   position: relative;
   text-align: left;
-  left: calc(30vw);
+  left: calc(50vw - 310px);
 }
 
