@@ -2,6 +2,9 @@ body {
   margin: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+.about {
+  margin: 0;
+}
 .main-body {
   font-family: 'Microsoft YaHei', Arial, sans-serif;
   background-color: rgb(255, 255, 255);
@@ -35,7 +38,7 @@ body {
 }
 
 .wrapper {
-  height: 300px;;
+  height: 20vw;;
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -45,7 +48,7 @@ body {
 .wrapper:before, .wrapper:after{
   content:"";
   position: absolute;
-  height: 200px;
+  height: 15vw;
   width: 100px;
   z-index: 2;
 }
@@ -60,8 +63,12 @@ body {
 .wrapper .track {
   display:flex;
   width: 1000px;
-  height: 200px;
+  height: 15vw;
   animation: scroll 60s 0.5s linear infinite
+}
+.logo {
+  max-width: 30vw;
+  height: 15vw;
 }
 
 
@@ -81,7 +88,7 @@ h1 {
   font-size: 33pt;
 }
 h2 {
-  font-size: 2.1vw;
+  font-size: 26pt;
 }
 h3 {
   font-size: 1.5vw;
@@ -178,14 +185,15 @@ a.donate:hover, a.donate:active {
 .media article {
   -webkit-flex: 0;
   -ms-flex: 0;
-  flex: 20;
+  flex: 3;
   padding: 0px;
 }
 .media aside {
   -webkit-flex: 0;
   -ms-flex: 0;
-  flex: 10.7;
+  flex: 10%;
   padding: 0px;
+  max-height: 634px;
 }
 #nav-icon {
   padding-left: 10px;
@@ -316,9 +324,27 @@ a.donate:hover, a.donate:active {
   right: 20%;
 }
 
+#utcr-logo {
+  position: relative;
+  left: calc(22% - 50px);
+  height: 8vw;
+  width: auto;
+}
+#amuka-logo-home {
+  position: absolute;
+  left: calc(50% - 100px);
+  height: 8vw;
+  width: auto;
+}
+
 #contacts {
   position: relative;
-  left: 31.5%;
   text-align: left;
+  left: calc(50vw - 310px);
+}
+#contact-us {
+  position: relative;
+  text-align: left;
+  left: calc(50vw - 310px);
 }
 
