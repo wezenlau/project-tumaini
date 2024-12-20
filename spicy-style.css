@@ -343,11 +343,13 @@ a.donate:hover, a.donate:active {
 #contacts {
   position: relative;
   text-align: left;
+  font-size: 1.25vw;
   left: calc(50vw - 310px);
 }
 #contact-us {
   position: relative;
   text-align: left;
+  font-size: 1.22vw;
   left: calc(50vw - 310px);
 }
 
