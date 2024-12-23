@@ -49,9 +49,11 @@ function arrowSwitch() {
 }
 
 function menuHeight() {
-    if (window.innerWidth > 997) {
-        document.getElementById("menu").style.height = "72px"
+    if (window.innerWidth > 1069) {
+        document.getElementById("menu").style.height = "74px"
     } else {
-        document.getElementById("menu").style.height = "94px"
+        document.getElementById("menu").style.height = "96px"
     }
 }
+
+
