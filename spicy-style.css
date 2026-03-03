@@ -97,20 +97,24 @@ p {
   width: 100%;
   text-align: center;
   background-color: rgb(102, 176, 102);
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
 }
 .menu {
-  font-size: 15pt;
+  font-size: 14.98pt;
   width: 19vw;
   text-align: center;
   background-color: rgb(102, 176, 102);
   color: rgb(0, 0, 0);
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding: 25px 0;
   text-decoration: none;
   display:inline-block;
+  vertical-align: middle;
+  transition: background-color 0.3s;
 }
 .menu:hover {
-  background-color: rgb(137, 209, 137);
+  background-color: rgb(118, 193, 118);
 }
 
 .dropdown-content a {
@@ -340,6 +344,7 @@ a.donate:hover, a.donate:active {
   background-color: black;
   color: white;
   display: block;
+  height: 50vh;
 }
 #footer-menu {
   text-align: center;
