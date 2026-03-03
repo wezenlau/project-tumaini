@@ -4,6 +4,9 @@
     <head>
         <title>Project Tumaini - A UTC Reading Community Project</title>
         <link rel="icon" type="image/x-icon" href="logo-icon.png">
+        <meta name="description" content="A community project by UTC Redaing and the Amuka foundation to support a primary shool in rural Kenya.">
+        <link rel="stylesheet" type="text/css" href="spicy-style.css">
+        <script src="spicy-script.js"></script>
     </head>
 
     <div class="header">
@@ -18,8 +21,6 @@
                     title="Youtube Channel"><img src="yt-logo.png" alt="Youtube Page" style="height: 45px; width: 45px;"></a>
                 <a href="https://www.tiktok.com/@project.tumaini" target="_blank"
                     title="TikTok Page"><img src="tiktok-logo.png" alt="TikTok Page" style="height: 45px; width: 45px;"></a>
-            </div>
-        </span>
     </div>
 
     <div id="menu">
@@ -29,8 +30,8 @@
             class="menu" href="fundraising.html"><b>Fundraising Campaign</b></a><span id="dropdown"><a
             class="menu" href="donate.html"><b>Donate</b></a><div
             class="dropdown-content">
-                    <a href="https://www.letslocalise.co.uk/pap-campaign-details?pledgeCampaignId=11560" target="_blank">Donate to Us</a>
-                    <a href="https://wonderful.org/pay?ref=SC047985" target="_blank">Donate to Amuka</a></div></span>
+                <a href="https://www.letslocalise.co.uk/pap-campaign-details?pledgeCampaignId=11560" target="_blank">Donate to Us</a>
+                <a href="https://wonderful.org/pay?ref=SC047985" target="_blank">Donate to Amuka</a></div></span>
     </div>
 
     <p></p>
@@ -98,10 +99,26 @@
 
 
     <body onload="menuHeight()" onresize="menuHeight()">
+        <div id="nav-icon">
+            <div class="container" id="icon1" onclick="controlNav(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <div id="side-nav" class="side-nav">
+            <ul>
+                <li><a href="index.html">Home</a><br></li>
+                <li><a href="index.html#about">About Us</a><br></li>
+                <li><a href="our-mission.html">Our Mission</a><br></li>
+                <li><a href="our-plans.html">Our Plans</a><br></li>
+                <li><a href="fundraising.html">Fundraising</a><br></li>
+                <li><a href="donate.html">Support Our Project</a><br></li>
+            </ul>
+        </div>
 
     <div class="main-body">
-        <p></p>
-
+        <br>
         <div class="promo-vid">
             <article style="text-align: left;">
                 <h2 class="about">About Us</h2>
@@ -136,7 +153,7 @@
                 <a href="our-mission.html" class="bt-links">Our Mission</a> | 
                 <a href="our-plans.html" class="bt-links">Our Plan</a> | 
                 <a href="fundraising.html" class="bt-links">Fundraising</a> | 
-                <a href="https://www.letslocalise.co.uk/pap-campaign-details?pledgeCampaignId=11560" class="bt-links" target="_blank" style="font-size: 14pt;">Donate Now</a> | 
+                <a href="https://www.letslocalise.co.uk/pap-campaign-details?pledgeCampaignId=11560" class="bt-links" target="_blank">Donate Now</a> | 
             </p>
             <h4 id="contacts-main">Contact Us:</h4>
             <p id="contact-us-main">
@@ -144,12 +161,8 @@
                 Amuka Foundation: childsponsorship@amuka-foundation.org<br>
                 UTC Reading: enquiries@utcreading.org.uk
             </p>
-            <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
         </footer>
     </div>
-    
-    <link rel="stylesheet" href="spicy-style.css">
-    <script src="spicy-script.js"></script>
     
     </body>
 </html>
